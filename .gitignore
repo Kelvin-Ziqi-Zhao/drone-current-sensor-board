@@ -3,3 +3,5 @@
 *.zip
 
 fp-info-cache
+*autosave*
+*auto_save*
