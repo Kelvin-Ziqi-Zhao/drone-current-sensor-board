@@ -85,7 +85,7 @@
   (pad "2" thru_hole circle (at 2.5 -5) (size 2.5 2.5) (drill 1.799996) (layers "*.Cu" "*.Mask") (tstamp bf0c53bb-73ce-48a1-9c45-840489223a2b))
   (pad "3" thru_hole circle (at 5.5 5) (size 1.8 1.8) (drill 1.100023) (layers "*.Cu" "*.Mask") (tstamp 56818e24-217c-486e-9be6-25eeec3867fb))
   (pad "4" thru_hole circle (at -5.5 5) (size 1.8 1.8) (drill 1.100023) (layers "*.Cu" "*.Mask") (tstamp b1e18167-5014-4e27-ba6b-c817fb13e785))
-  (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-TH_XT30PW-M.wrl"
+  (model "${KIPRJMOD}/../lib/pcb_lib.3dshapes/CONN-TH_XT30PW-M.wrl"
     (offset (xyz -0 -3.5 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

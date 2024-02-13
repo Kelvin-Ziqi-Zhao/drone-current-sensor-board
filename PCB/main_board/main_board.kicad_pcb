@@ -250,7 +250,7 @@
       (net 20 "ICAP+") (pinfunction "1") (pintype "unspecified") (tstamp e6eb6c89-9020-4147-924b-a3323eb74235))
     (pad "2" smd rect (at 3.81 0) (size 3.5 5.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 33 "IBAT-") (pinfunction "2") (pintype "unspecified") (tstamp 0406e2f3-ba96-4cd7-b0cf-fb1a3ebd4bc8))
-    (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R3920.wrl"
+    (model "${KIPRJMOD}/../lib/pcb_lib.3dshapes/R3920.wrl"
       (offset (xyz 0 -0 -0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -831,7 +831,7 @@
       (net 6 "Net-(U6-XIN)") (pinfunction "OSC2") (pintype "unspecified") (tstamp 3f3a2b8e-068c-4504-a0fa-75fbcc9b822e))
     (pad "4" smd rect (at -1.1 -0.88) (size 1.4 1.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 2 "GND") (pinfunction "GND") (pintype "unspecified") (tstamp fe738be7-24e4-4108-b2d2-111d4a617469))
-    (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/OSC-SMD_4P-L3.2-W2.5-H1.0.wrl"
+    (model "${KIPRJMOD}/../lib/pcb_lib.3dshapes/OSC-SMD_4P-L3.2-W2.5-H1.0.wrl"
       (offset (xyz 0 -0 -0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1328,7 +1328,7 @@
       (net 3 "IBAT+") (pinfunction "K") (pintype "unspecified") (tstamp 528988c5-355b-4038-b97a-2a6a9588309b))
     (pad "2" smd rect (at 2.1 0 270) (size 2 1.59) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 23 "VBUS") (pinfunction "A") (pintype "unspecified") (tstamp c0149ae6-c491-48f5-a1d6-869f17116965))
-    (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/SMA_L4.3-W2.5-LS5.0-RD.wrl"
+    (model "${KIPRJMOD}/../lib/pcb_lib.3dshapes/SMA_L4.3-W2.5-LS5.0-RD.wrl"
       (offset (xyz 0 -0 -0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1405,7 +1405,7 @@
       (net 93 "unconnected-(USB1-SHELL-Pad14)") (pinfunction "SHELL") (pintype "unspecified") (tstamp 8a8e22c2-3b75-46aa-92c4-f0c7faba6d8f))
     (pad "14" thru_hole oval (at 4.32 2.38 180) (size 1.2 1.8) (drill oval 0.599999 1.199998) (layers "*.Cu" "*.Mask")
       (net 93 "unconnected-(USB1-SHELL-Pad14)") (pinfunction "SHELL") (pintype "unspecified") (tstamp 014f2e13-310f-41a7-9ffa-a609b03c0d03))
-    (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-C-SMD_TYPE-C-6PIN-2MD-073.wrl"
+    (model "${KIPRJMOD}/../lib/pcb_lib.3dshapes/USB-C-SMD_TYPE-C-6PIN-2MD-073.wrl"
       (offset (xyz 0 -1.2 1.6))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1438,7 +1438,7 @@
       (net 3 "IBAT+") (pinfunction "1") (pintype "unspecified") (tstamp 1adaa6f0-931a-4227-a13a-b1d6947fb975))
     (pad "2" smd rect (at 3.81 0) (size 3.5 5.2) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 33 "IBAT-") (pinfunction "2") (pintype "unspecified") (tstamp 2c2c7c17-1544-4f2a-9402-01a16d83cc2a))
-    (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R3920.wrl"
+    (model "${KIPRJMOD}/../lib/pcb_lib.3dshapes/R3920.wrl"
       (offset (xyz 0 -0 -0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1541,7 +1541,7 @@
       (net 18 "unconnected-(CN1-Pad3)") (pinfunction "3") (pintype "unspecified") (tstamp edb766ae-b7ef-49ed-a06f-6eb06282b828))
     (pad "4" thru_hole circle (at -5.5 5 270) (size 1.8 1.8) (drill 1.100023) (layers "*.Cu" "*.Mask")
       (net 19 "unconnected-(CN1-Pad4)") (pinfunction "4") (pintype "unspecified") (tstamp d7920fc7-8635-412d-be1c-118d38329172))
-    (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-TH_XT30PW-M.wrl"
+    (model "${KIPRJMOD}/../lib/pcb_lib.3dshapes/CONN-TH_XT30PW-M.wrl"
       (offset (xyz -0 -3.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2267,7 +2267,7 @@
       (net 45 "unconnected-(U1-Pad3)") (pinfunction "3") (pintype "unspecified") (tstamp 1b121554-f95e-4a88-a8cb-44a1da68c08a))
     (pad "4" thru_hole circle (at -5.5 2.5 180) (size 1.8 1.8) (drill 0.999998) (layers "*.Cu" "*.Mask")
       (net 46 "unconnected-(U1-Pad4)") (pinfunction "4") (pintype "unspecified") (tstamp 2699cc0b-9af8-4cba-87b6-e905e6aa20a7))
-    (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-TH_XT30PW-F-1.wrl"
+    (model "${KIPRJMOD}/../lib/pcb_lib.3dshapes/CONN-TH_XT30PW-F-1.wrl"
       (offset (xyz 0 -6.45 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2450,7 +2450,7 @@
       (net 32 "Net-(JP5-A)") (pinfunction "VCC") (pintype "unspecified") (tstamp b9b418d2-530d-4975-b08e-7fe6be4fc98f))
     (pad "9" smd rect (at 0 0 90) (size 4.3 3.4) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 50 "unconnected-(U3-EP-Pad9)") (pinfunction "EP") (pintype "unspecified") (tstamp 630fcbe7-40b1-42da-ba5f-3d23aec2f988))
-    (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/WSON-8_L8.0-W6.0-H0.78-P1.27.wrl"
+    (model "${KIPRJMOD}/../lib/pcb_lib.3dshapes/WSON-8_L8.0-W6.0-H0.78-P1.27.wrl"
       (offset (xyz 0 -0 -0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 270))
@@ -2686,7 +2686,7 @@
       (net 21 "unconnected-(CN2-Pad3)") (pinfunction "3") (pintype "unspecified") (tstamp da107efe-f155-4122-8e64-c854d5269afe))
     (pad "4" thru_hole circle (at -5.5 5 270) (size 1.8 1.8) (drill 1.100023) (layers "*.Cu" "*.Mask")
       (net 22 "unconnected-(CN2-Pad4)") (pinfunction "4") (pintype "unspecified") (tstamp ab61c73f-ec5f-44e2-8b93-55099f9da8f1))
-    (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/CONN-TH_XT30PW-M.wrl"
+    (model "${KIPRJMOD}/../lib/pcb_lib.3dshapes/CONN-TH_XT30PW-M.wrl"
       (offset (xyz -0 -3.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -2972,7 +2972,7 @@
       (net 16 "unconnected-(Card1-EP-Pad12)") (pinfunction "EP") (pintype "unspecified") (tstamp 1710a22c-050a-4930-9bd1-c27bc61028b2))
     (pad "13" smd rect (at 7.75 -5.3) (size 1.2 2.2) (layers "B.Cu" "B.Paste" "B.Mask")
       (net 17 "unconnected-(Card1-EP-Pad13)") (pinfunction "EP") (pintype "unspecified") (tstamp c8a17c14-f60b-4e67-99c2-db3ee37eea64))
-    (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/TF-SMD_XKTF-015-N.wrl"
+    (model "${KIPRJMOD}/../lib/pcb_lib.3dshapes/TF-SMD_XKTF-015-N.wrl"
       (offset (xyz 0 -2.5 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 180 180 180))

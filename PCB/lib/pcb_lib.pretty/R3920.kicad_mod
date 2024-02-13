@@ -17,7 +17,7 @@
     (stroke (width 0.06) (type solid)) (fill none) (layer "F.Fab") (tstamp bde4b2f8-de49-4dc1-8fd2-02a53a5ad3de))
   (pad "1" smd rect (at -3.81 0) (size 3.5 5.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 241a18f8-aa23-4414-b0ac-97adf5eebdac))
   (pad "2" smd rect (at 3.81 0) (size 3.5 5.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f5acf286-eb10-48ac-a37d-db269111a5fe))
-  (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/R3920.wrl"
+  (model "${KIPRJMOD}/../lib/pcb_lib.3dshapes/R3920.wrl"
     (offset (xyz 0 -0 -0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

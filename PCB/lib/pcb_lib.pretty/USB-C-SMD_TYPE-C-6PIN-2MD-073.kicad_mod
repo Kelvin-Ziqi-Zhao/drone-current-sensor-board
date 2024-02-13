@@ -47,7 +47,7 @@
   (pad "13" thru_hole oval (at -4.32 2.38) (size 1.2 1.8) (drill oval 0.599999 1.199998) (layers "*.Cu" "*.Mask") (tstamp 0f2ed783-b5e9-4dd5-ac7f-151c9cadc827))
   (pad "14" thru_hole oval (at 4.32 -1.83) (size 1.1 2) (drill oval 0.599999 1.500022) (layers "*.Cu" "*.Mask") (tstamp caf9a494-13ca-4312-846d-605e4dde2a0d))
   (pad "14" thru_hole oval (at 4.32 2.38) (size 1.2 1.8) (drill oval 0.599999 1.199998) (layers "*.Cu" "*.Mask") (tstamp 413a9120-61bc-4161-a9d0-d3e69e3de238))
-  (model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/USB-C-SMD_TYPE-C-6PIN-2MD-073.wrl"
+  (model "${KIPRJMOD}/../lib/pcb_lib.3dshapes/USB-C-SMD_TYPE-C-6PIN-2MD-073.wrl"
     (offset (xyz 0 -1.2 1.6))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
