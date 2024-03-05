@@ -44,6 +44,7 @@ oled.blit(fb, 96, 0)
 # Add some text
 oled.text("Raspberry Pi",5,5)
 oled.text("Pico",5,15)
+oled.text("  ",5,15)
 
 # Finally update the oled display so the image & text is displayed
 oled.show()

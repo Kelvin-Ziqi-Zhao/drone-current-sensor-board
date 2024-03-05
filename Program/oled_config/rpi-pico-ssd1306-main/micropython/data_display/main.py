@@ -17,7 +17,7 @@ import framebuf,sys,time
 pix_res_x  = 128 # SSD1306 horizontal resolution
 pix_res_y = 64   # SSD1306 vertical resolution
 
-i2c_dev = I2C(1,scl=Pin(27),sda=Pin(26),freq=200000)  # start I2C on I2C1 (GPIO 26/27)
+i2c_dev = I2C(1,scl=Pin(7),sda=Pin(6),freq=200000)  # start I2C on I2C1 (GPIO 26/27)
 i2c_addr = [hex(ii) for ii in i2c_dev.scan()] # get I2C address in hex format
 if i2c_addr==[]:
     print('No I2C Display Found') 
