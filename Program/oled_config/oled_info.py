@@ -48,6 +48,7 @@ while(1):
     print("current      ",ina0.current,ina1.current)
     print("power        ",ina0.power,ina1.power)
     '''
+    
     oled.show()
     time.sleep_us(10)
     oled.fill(0)
