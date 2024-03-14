@@ -1,6 +1,6 @@
 import ina226
 import time,sys
-from machine import Pin, I2C
+from machine import Pin, I2C, Timer
 from ssd1306 import SSD1306_I2C
 
 # i2c
@@ -28,27 +28,28 @@ else:
 oled = SSD1306_I2C(pix_res_x, pix_res_y, i2c_dev) # oled controller
 oled.fill(0)
 
-while(1):
-    oled.text("Power Monitor",0,5)
+def flash(a):
+    start = time.ticks_us()
+
     oled.text("Vbus:",0,15)
     oled.text("I0:",0,25)
     oled.text("I1:",0,35)
     oled.text("P0:",0,45)
     oled.text("P1:",0,55)
-    
+ 
     oled.text(str(ina0.bus_voltage)+"V",45,15)
     oled.text(str(ina0.current)+"A",45,25)
     oled.text(str(ina1.current)+"A",45,35)
     oled.text(str(ina0.power)+"W",45,45)
     oled.text(str(ina1.power)+"W",45,55)
     
-    '''
-    print("bus_voltage  ",ina0.bus_voltage,ina1.bus_voltage)
-    print("shunt_voltage",ina0.shunt_voltage,ina1.shunt_voltage)
-    print("current      ",ina0.current,ina1.current)
-    print("power        ",ina0.power,ina1.power)
-    '''
-    
     oled.show()
-    time.sleep_us(10)
+    time.sleep_ms(1)
     oled.fill(0)
+    
+    delta = time.ticks_diff(time.ticks_us(), start)
+    
+    hz = 1/delta*1e6
+    oled.text(str(hz),0,5)
+
+tim = Timer(mode=Timer.PERIODIC, freq=100, callback=flash)
