@@ -14,4 +14,4 @@ while(1):
     print("shunt_voltage",ina0.shunt_voltage,ina1.shunt_voltage)
     print("current      ",ina0.current,ina1.current)
     print("power        ",ina0.power,ina1.power)
-    time.sleep(0.5)
+    time.sleep(0.02)

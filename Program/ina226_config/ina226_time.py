@@ -210,7 +210,7 @@ class INA226:
         self._write_register(_REG_CALIBRATION, self._cal_value)
         
         config = (_CONFIG_CONST_BITS |
-                  _CONFIG_AVGMODE_1SAMPLES |
+                  _CONFIG_AVGMODE_512SAMPLES |
                   _CONFIG_VBUSCT_588us |
                   _CONFIG_VSHUNTCT_588us |
                   _CONFIG_MODE_SANDBVOLT_CONTINUOUS)

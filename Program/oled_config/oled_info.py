@@ -41,7 +41,6 @@ def flash(a):
     oled.text(str(ina0.current)+"A",45,25)
     oled.text(str(ina1.current)+"A",45,35)
     oled.text(str(ina0.power)+"W",45,45)
-    oled.text(str(ina1.power)+"W",45,55)
     
     oled.show()
     time.sleep_ms(1)
@@ -51,5 +50,9 @@ def flash(a):
     
     hz = 1/delta*1e6
     oled.text(str(hz),0,5)
+    
+while(1):
+    flash(0)
+    time.sleep_ms(10)
 
-tim = Timer(mode=Timer.PERIODIC, freq=100, callback=flash)
+#tim = Timer(mode=Timer.PERIODIC, freq=100, callback=flash)
