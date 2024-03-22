@@ -8,6 +8,7 @@ pwm0 = PWM(Pin(17),freq = 400, duty_ns = 1000000)
 a = input("Waiting for start")
 
 trig_master.value(1)
+print("record start")
 start = 1000000
 end = 2000000
 count = 10
@@ -15,6 +16,8 @@ count = 10
 ns = 900000
 p = 1
 
+time.sleep(2)
+print("test start")
 while count > 0:
     ns = start
     while ns < end:
@@ -23,6 +26,10 @@ while count > 0:
         pwm0.duty_ns(ns)
         
     time.sleep(0.5)
+    
+    #0.5
+    #1
+    #`2
         
     ns = end
     while ns > start:

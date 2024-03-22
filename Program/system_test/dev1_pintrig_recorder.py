@@ -30,7 +30,7 @@ led.value(1)
 start = time.ticks_ms()
 with open("/sd/test.txt", "w") as f:
     f.write("time_ms,V0,V1,I0,I1,P0,P1\r\n")
-    while(count<2000):
+    while(count<4000):
         sdstart = time.ticks_ms()
         count += 1
         t = time.ticks_diff(time.ticks_ms(), start)
